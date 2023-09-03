@@ -28,7 +28,13 @@ html {
   scroll-padding-top: 75px;
 }
 
+* {
+  border: 1px solid red;
+}
+
+
 body {
+  width: 100%;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -41,6 +47,27 @@ body {
   margin-right: auto;
   font-family: 'Centra', sans-serif !important;
 }
+
+body::before {
+  content: "";
+  position: fixed; /* fixed position */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /* place it behind the content */
+
+  background-image: url('./assets/bg_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translateY(0); /* start position */
+  will-change: transform; /* for performance */
+}
+
+body.parallax-active::before {
+  transform: translateY(-50%); /* adjust for desired parallax amount */
+}
+
 
 h1,
 h2,
