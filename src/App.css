@@ -23,12 +23,10 @@
   box-sizing: border-box;
 }
 
-.main-content {
-  height: 100vh; /* remplacé par */
-  height: calc(100 * var(--vh));
-}
-
 body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   overflow-x: hidden;
 }
 
