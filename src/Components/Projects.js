@@ -3,37 +3,42 @@ import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
 import Container from 'react-bootstrap/Container';
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img2.png";
-import projImg3 from "../assets/project-img3.png";
-import colorSharp2 from "../assets/color-sharp2.png";
+import projImg1 from "../assets/img/2sus.jpg";
+import projImg2 from "../assets/img/42sh.jpg";
+import projImg3 from "../assets/img/defender.jpg";
+
 
 export const Projects = () => {
     const projects = [
         {
-            title: ('Business Startup'),
-            description: ('Design & Development'),
+            title: ('C# & Unity 3D'),
+            description: ('3D FPS Horror Game'),
             imgUrl: projImg1,
+            link : "https://lencetek.itch.io/2-sus-1-mate",
         },
         {
-            title: ('Business Startup'),
-            description: ('Design & Development'),
+            title: ('C & CSFML'),
+            description: ("tcsh-like program made in C taking shell's functionalities."),
             imgUrl: projImg2,
+            link : "https://github.com/owentek/42sh",
         },
         {
-            title: ('Business Startup'),
-            description: ('Design & Development'),
+            title: ('C & CSFML'),
+            description: ('2D tower defense video game using CSFML'),
             imgUrl: projImg3,
+            link : "https://github.com/owentek/my_defender",
         },
         {
             title: ('Business Startup'),
             description: ('Design & Development'),
             imgUrl: projImg1,
+            link : "https://github.com/owentek/my_defender",
         },
         {
             title: ('Business Startup'),
             description: ('Design & Development'),
             imgUrl: projImg2,
+            link : "https://github.com/owentek/my_defender",
         },
     ];
     return (
@@ -69,7 +74,7 @@ export const Projects = () => {
                                         }
                                         </Row>
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="second">Second tab content
+                                    <Tab.Pane eventKey="second">
                                         <Row> {
                                             projects.map((project, index) => {
                                                 return (
@@ -82,7 +87,7 @@ export const Projects = () => {
                                         }
                                         </Row>
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="third">Third tab content
+                                    <Tab.Pane eventKey="third">
                                         <Row> {
                                             projects.map((project, index) => {
                                                 return (
@@ -92,7 +97,7 @@ export const Projects = () => {
                                                     />
                                                 )
                                             })
-                                        }
+                                        };
                                         </Row>
                                     </Tab.Pane>
                                 </Tab.Content>

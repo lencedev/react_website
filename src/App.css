@@ -29,7 +29,14 @@ html {
 }
 
 * {
-  border: 1px solid red;
+  /*border: 1px solid red;
+  */
+}
+
+
+.white-link {
+  color: white;
+  text-decoration: none; /* Optional: to remove the underline */
 }
 
 
@@ -81,8 +88,8 @@ h6 {
 }
 
 .hidden {
-  opacity: 0;
-  transition: all 1s;
+  opacity: 0.2;
+  transition: all 0.5s;
 }
 
 .show {
@@ -128,7 +135,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 1000;
   transition: 0.32s ease-in-out;
 }
 
@@ -400,6 +407,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 
+/*
+  STYLING RESUME CV BUTTON
+*/
+
+
+/* Ensure the content, header, and body of the modal has no padding or background */
+.modal-content,
+.modal-header,
+.modal-body {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important; 
+}
+
+/* Make sure the image takes up full space */
+.modern-modal img {
+    width: 100%;
+    height: auto;
+    display: block;  /* removes any whitespace at the bottom of the image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    opacity: 0.95;
+}
+
+/* Position the close button on top-right corner over the image */
+.modern-modal .close {
+    position: absolute;
+    top: 10px;   /* adjust as needed */
+    right: 10px; /* adjust as needed */
+    color: white;
+    opacity: 0.8; /* makes the button a bit transparent */
+}
+
+/* Adjust the close button appearance on hover */
+.modern-modal .close:hover {
+    opacity: 1; /* makes the button fully opaque on hover */
+}
+
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -526,7 +572,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #070026 -5.91%, #4830b4 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { ResumeButton } from "./ResumeButton";
 
 import logo from '../assets/logo.svg';
 import navIcon1 from '../assets/nav-icon1.svg';
@@ -49,13 +50,7 @@ export const NavBar = () => {
                             <a href='#'><img src={navIcon2} alt='' /></a>
                             <a href='#'><img src={navIcon3} alt='' /></a>
                         </div>
-                        <button className='vvd' onClick={() => console.log("connect")}>
-                            <span>Download CV</span>
-                            {/*
-                        faire en sorte qu'on puisse voir le cv sans le dl, genre juste le voir
-                        que ça soit clean
-                        */}
-                        </button>
+                        <ResumeButton className="vvd" />
                     </span>
                 </Navbar.Collapse>
             </Container>

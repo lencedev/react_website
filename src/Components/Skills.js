@@ -4,7 +4,6 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/meter1.svg";
 import meter2 from "../assets/meter2.svg";
 import meter3 from "../assets/meter3.svg";
-import colorSharp from "../assets/color-sharp.png";
 
 export const Skills = () => {
     const responsive = {
@@ -38,19 +37,19 @@ export const Skills = () => {
                             <p>Line 5:11: 'responsive' is assigned a value but never used</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image"/>
+                                    <img src={meter1} alt="Image" draggable="false"/>
                                     <h5>Web Developement</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image"/>
+                                    <img src={meter2} alt="Image" draggable="false"/>
                                     <h5>Web Developement</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image"/>
+                                    <img src={meter3} alt="Image" draggable="false"/>
                                     <h5>Web Developement</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image"/>
+                                    <img src={meter1} alt="Image" draggable="false"/>
                                     <h5>Web Developement</h5>
                                 </div>
                             </Carousel>
