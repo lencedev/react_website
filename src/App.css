@@ -81,6 +81,7 @@ body.parallax-active::before {
 }
 
 
+
 h1,
 h2,
 h3,
@@ -112,7 +113,7 @@ h6 {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /*animation: App-logo-spin infinite 20s linear;*/
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -370,7 +371,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  /*animation: updown 3s linear infinite;*/
+  animation: updown 3s linear infinite;
 }
 
 /*
@@ -388,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
-  /*animation: sophisticatedGlowing 8s infinite alternate;*/
+  animation: sophisticatedGlowing 8s infinite alternate;
 }
 
 .skill h2 {
@@ -567,10 +568,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 */
 
 .proj-imgbx {
-  /*
   animation: smoothWaveShake 6s ease-in-out infinite;
   animation: sophisticatedGlowing2 6s ease-in-out infinite;
-  */
   position: relative;
   border-radius: 30px;
   overflow: hidden;
