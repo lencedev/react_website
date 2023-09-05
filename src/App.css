@@ -81,6 +81,12 @@ body.parallax-active::before {
 }
 
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
 h1,
 h2,
 h3,
