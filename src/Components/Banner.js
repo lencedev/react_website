@@ -6,8 +6,8 @@ import headerImg from "../assets/header-img.svg";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Game Developer", "Video Editor"];
-    const [text, setText] = useState('');
+    const toRotate = ["2"];
+    const [text, setText] = useState('2');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
 
