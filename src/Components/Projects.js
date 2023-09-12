@@ -28,18 +28,6 @@ export const Projects = () => {
             imgUrl: projImg3,
             link : "https://github.com/owentek/my_defender",
         },
-        {
-            title: ('Business Startup'),
-            description: ('Design & Development'),
-            imgUrl: projImg1,
-            link : "https://github.com/owentek/my_defender",
-        },
-        {
-            title: ('Business Startup'),
-            description: ('Design & Development'),
-            imgUrl: projImg2,
-            link : "https://github.com/owentek/my_defender",
-        },
     ];
     return (
         <section className="hidden">
