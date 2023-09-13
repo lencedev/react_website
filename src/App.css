@@ -478,7 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .text {
-  color: #000000;
+  color: #dbdbdb;
   line-height: 1.1;
   font-size: 1rem;
 }
@@ -593,7 +593,6 @@ textarea.contact-input ~ .icon {
 }
 
 .contact-buttons {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
   margin-top: 1rem;
@@ -602,8 +601,7 @@ textarea.contact-input ~ .icon {
 }
 
 input.btn {
-  display: inline-block;
-  padding: 1.1rem 2rem;
+  padding: 1.4rem 5rem;
   background-color: rgba(19, 91, 206, 0.627);
   color : rgba(255, 255, 255, 0.831);
   border-radius: 40px;
@@ -702,7 +700,7 @@ input.btn:hover{
   }
 
   input.btn {
-    padding: 1rem 1.5rem;
+    padding: 1.2rem 3.5rem;
     font-size: 0.87rem;
   }
 }
@@ -735,7 +733,6 @@ input.btn:hover{
     line-height: 1;
   }
 }
-
 
 
 /*

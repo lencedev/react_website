@@ -13,36 +13,43 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  useEffect(() => {
-      const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                  entry.target.classList.add('show');
-              } else {
-                  entry.target.classList.remove('show');
-              }
-          });
-      });
+    useEffect(() => {
+        fetch("/api")
+            .then((res) => res.json())
+            .then((data) => { console.log(data) })
 
-      const hiddenElements = document.querySelectorAll('.hidden');
-      hiddenElements.forEach((el) => observer.observe(el));
+    }, []);
 
-      // Cleanup
-      return () => {
-          hiddenElements.forEach((el) => observer.unobserve(el));
-      }
-  }, []);
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } else {
+                    entry.target.classList.remove('show');
+                }
+            });
+        });
 
-  return (
-      <div className="App">
-          <NavBar />
-          <Banner />
-          <Skills />
-          <Projects />
-          {/* <Contact /> */}
-          <Footer />
-      </div>
-  );
+        const hiddenElements = document.querySelectorAll('.hidden');
+        hiddenElements.forEach((el) => observer.observe(el));
+
+        // Cleanup
+        return () => {
+            hiddenElements.forEach((el) => observer.unobserve(el));
+        }
+    }, []);
+
+    return (
+        <div className="App">
+            <NavBar />
+            <Banner />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
