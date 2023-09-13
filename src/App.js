@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { NavBar } from './Components/NavBar';
 import { Banner } from './Components/Banner';
 import { Skills } from './Components/Skills';
-import { Contact } from './Components/Contact';
+// import { Contact } from './Components/Contact';
 import { Projects } from './Components/Projects';
 import { Footer } from './Components/Footer';
 
@@ -13,12 +13,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-    useEffect(() => {
-        fetch("/api")
-            .then((res) => res.json())
-            .then((data) => { console.log(data) })
+    // useEffect(() => {
+    //     fetch("/api")
+    //         .then((res) => res.json())
+    //         .then((data) => { console.log(data) })
 
-    }, []);
+    // }, []);
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
@@ -46,7 +46,7 @@ function App() {
             <Banner />
             <Skills />
             <Projects />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
         </div>
     );
