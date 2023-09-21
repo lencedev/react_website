@@ -9,6 +9,7 @@ import projImg3 from "../assets/img/defender.jpg";
 import projImg4 from "../assets/img/groundhog.jpg";
 import projImg5 from "../assets/img/tradingbot.jpg";
 import projImg6 from "../assets/img/abstractVM.jpg";
+import projImg7 from "../assets/img/weatherapp.jpg";
 
 
 export const Projects = () => {
@@ -54,6 +55,13 @@ export const Projects = () => {
             imgUrl: projImg6,
             link: "https://github.com/lencedev/groundhog",
             tab: "object",
+        },
+        {
+            title: ('ReactJS & HTML & CSS'),
+            description: ('Weather Web Application using API'),
+            imgUrl: projImg7,
+            link: "https://main--beautiful-sunburst-8c42a8.netlify.app/",
+            tab: "web",
         },
     ];
     return (
