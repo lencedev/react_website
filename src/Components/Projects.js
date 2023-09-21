@@ -10,6 +10,7 @@ import projImg4 from "../assets/img/groundhog.jpg";
 import projImg5 from "../assets/img/tradingbot.jpg";
 import projImg6 from "../assets/img/abstractVM.jpg";
 import projImg7 from "../assets/img/weatherapp.jpg";
+import projImg8 from "../assets/img/portfolio.jpg";
 
 
 export const Projects = () => {
@@ -26,7 +27,7 @@ export const Projects = () => {
             description: ("tcsh-like program made in C taking shell's functionalities."),
             imgUrl: projImg2,
             link: "https://github.com/owentek/42sh",
-            tab: "web",
+            tab: "object",
         },
         {
             title: ('C & CSFML'),
@@ -61,6 +62,13 @@ export const Projects = () => {
             description: ('Weather Web Application using API'),
             imgUrl: projImg7,
             link: "https://main--beautiful-sunburst-8c42a8.netlify.app/",
+            tab: "web",
+        },
+        {
+            title: ('ReactJS & HTML & CSS'),
+            description: ('Many Portfolios made in ReactJS'),
+            imgUrl: projImg8,
+            link: "https://magenta-vacherin-bd46aa.netlify.app/",
             tab: "web",
         },
     ];

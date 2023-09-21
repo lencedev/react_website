@@ -35,7 +35,7 @@ export const Banner = () => {
                             <p className="about">Completed 2 years at Epitech, now in my 3rd year at EPSI.<br></br> Actively seeking a one-year apprenticeship or longer.</p>
                         </Col>
                         <Col xs={12} md={6} xl={4}>
-                            <img src={headerImg} alt="Header Img" className="img-fluid" />
+                            <img src={headerImg} alt="Header Img" className="img-fluid" draggable="false"/>
                         </Col>
                     </Row>
                     {/* <div className="about-me">
