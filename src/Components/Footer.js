@@ -8,8 +8,8 @@ export const Footer = () => {
                 <div className="wave" id="wave4"></div>
             </div>
             <ul className="social_icon">
-                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/lencedev" target='_blank'><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/owen-bolling-5aa651242/" target='_blank'><ion-icon name="logo-linkedin"></ion-icon></a></li>
             </ul>
             <ul className="menu">
                 <li><a href="#home">Home</a></li>

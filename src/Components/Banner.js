@@ -1,41 +1,27 @@
-import { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/header-img.svg";
+import headerImg from "../assets/img/pp.jpg";
+import Typed from "typed.js";
 
 export const Banner = () => {
-    const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Game Developer", "Video Editor"];
-    const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
 
     useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta)
-        return () => { clearInterval(ticker) };
-    }, [text])
+        // Options pour Typed.js
+        const options = {
+            strings: ["Web Developer", "Game Developer", "Video Editor"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        };
 
-    const tick = () => {
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+        // Initialisation de Typed.js
+        const typed = new Typed(".typing", options);
 
-        setText(updatedText);
-        if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2)
-        }
-        if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
-            setDelta(period);
-        } else if (isDeleting && updatedText === '') {
-            setIsDeleting(false);
-            setLoopNum(loopNum + 1);
-            setDelta(500);
-        }
-    }
+        // Cleanup à la destruction du composant
+        return () => {
+            typed.destroy();
+        };
+    }, []);
 
     return (
         <section className="hidden">
@@ -43,17 +29,21 @@ export const Banner = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col xs={12} md={6} xl={7}>
-                            <span className="tagline">Welcome to my Porfolio</span>
-                            <h1>{`Hi I'm Lence`} <br></br><span className="wrap">{text}</span></h1>
-                            <p>lorem ipsum dolor sit amet, consectetur adip occ.</p>
-                            <button onClick={() => console.log('connect')}>Let's Connect.<ArrowRightCircle size={25} /></button>
+                            <h1 className="hello">Hello, I'm</h1> {/* Changement de div en h2 et ajout de className */}
+                            <h1 className="lence">Lence</h1> {/* Changement de div en h1 et ajout de className */}
+                            <h2 className="im">I'm a<span className="mini_space"></span> <span className="typing"></span></h2> {/* Maintien de div et ajout de className */}
+                            <p className="about">Completed 2 years at Epitech, now in my 3rd year at EPSI.<br></br> Actively seeking a one-year apprenticeship or longer.</p>
                         </Col>
-                        <Col xs={12} md={6} xl={5}>
-                            <img src={headerImg} alt="Headder Img" />
+                        <Col xs={12} md={6} xl={4}>
+                            <img src={headerImg} alt="Header Img" className="img-fluid" />
                         </Col>
                     </Row>
+                    {/* <div className="about-me">
+                        <h2 className="h2">About me</h2>
+                    </div> */}
                 </Container>
             </section>
         </section>
+
     )
 }
