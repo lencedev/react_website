@@ -11,6 +11,7 @@ import projImg5 from "../assets/img/tradingbot.jpg";
 import projImg6 from "../assets/img/abstractVM.jpg";
 import projImg7 from "../assets/img/weatherapp.jpg";
 import projImg8 from "../assets/img/portfolio.jpg";
+import projImg9 from "../assets/img/todolist.jpg";
 
 
 export const Projects = () => {
@@ -68,6 +69,13 @@ export const Projects = () => {
             title: ('ReactJS & HTML & CSS'),
             description: ('Many Portfolios made in ReactJS'),
             imgUrl: projImg8,
+            link: "https://magenta-vacherin-bd46aa.netlify.app/",
+            tab: "web",
+        },
+        {
+            title: ('ReactJS & HTML & CSS'),
+            description: ('To-do list made in ReactJS'),
+            imgUrl: projImg9,
             link: "https://magenta-vacherin-bd46aa.netlify.app/",
             tab: "web",
         },
