@@ -73,10 +73,10 @@ export const Projects = () => {
             tab: "web",
         },
         {
-            title: ('ReactJS & HTML & CSS'),
+            title: ('ReactJS & JSX'),
             description: ('To-do list made in ReactJS'),
             imgUrl: projImg9,
-            link: "https://magenta-vacherin-bd46aa.netlify.app/",
+            link: "https://unrivaled-pithivier-b6dfc7.netlify.app/",
             tab: "web",
         },
     ];
