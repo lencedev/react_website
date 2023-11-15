@@ -3,22 +3,23 @@ import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
 import Container from 'react-bootstrap/Container';
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/2sus.jpg";
-import projImg2 from "../assets/img/42SH.jpg";
+import projImg1 from "../assets/img/2sus1mate.jpg";
+import projImg2 from "../assets/img/42sh.jpg";
 import projImg3 from "../assets/img/defender.jpg";
 import projImg4 from "../assets/img/groundhog.jpg";
-import projImg5 from "../assets/img/tradingbot.jpg";
+import projImg5 from "../assets/img/tradebot.jpg";
 import projImg6 from "../assets/img/abstractVM.jpg";
 import projImg7 from "../assets/img/weatherapp.jpg";
 import projImg8 from "../assets/img/portfolio.jpg";
-import projImg9 from "../assets/img/todolist.jpg";
+import projImg9 from "../assets/img/todo-list.jpg";
+import projImg10 from "../assets/img/myrunner.jpg";
 
 
 export const Projects = () => {
     const projects = [
         {
             title: ('C# & Unity 3D'),
-            description: ('3D FPS Horror Game'),
+            description: ('2 Sus 1 Mate" is an 3D FPS horror game, inspired by Among Us, Slender, and Fnaf. Game reviewed by "freeappsforme" Link : https://freeappsforme.com/2-sus-1-mate-game-review/'),
             imgUrl: projImg1,
             link: "https://lencetek.itch.io/2-sus-1-mate",
             tab: "game",
@@ -32,7 +33,7 @@ export const Projects = () => {
         },
         {
             title: ('C & CSFML'),
-            description: ('2D tower defense video game using CSFML'),
+            description: ('Defender is a 2D tower defense game developed in CSFML and C, set in the Among Us universe. It combines strategic gameplay with engaging graphics, showcasing proficiency in game logic and C programming.'),
             imgUrl: projImg3,
             link: "https://github.com/owentek/my_defender",
             tab: "game",
@@ -78,6 +79,13 @@ export const Projects = () => {
             imgUrl: projImg9,
             link: "https://unrivaled-pithivier-b6dfc7.netlify.app/",
             tab: "web",
+        },
+        {
+            title: ('C & CSFML'),
+            description: ('Runner is a fast-paced 2D game developed using C and CSFML. In this game, players control a running character who must jump to avoid enemies, combining quick reflexes with strategic timing.'),
+            imgUrl: projImg10,
+            link: "https://github.com/lencedev/my_runner",
+            tab: "game",
         },
     ];
     return (
