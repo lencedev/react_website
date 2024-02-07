@@ -32,7 +32,7 @@ export const Banner = () => {
                             <h1 className="hello">Hello, I'm</h1> {/* Changement de div en h2 et ajout de className */}
                             <h1 className="lence">Lence</h1> {/* Changement de div en h1 et ajout de className */}
                             <h2 className="im">I'm a<span className="mini_space"></span> <span className="typing"></span></h2> {/* Maintien de div et ajout de className */}
-                            <p className="about">Completed 2 years at Epitech, now in my 3rd year at EPSI.<br></br> Actively seeking a one-year apprenticeship or longer.</p>
+                            <p className="about">Completed 2 years at Epitech, looking for a job before beginning my 3rd year at Epitech.<br></br> Actively seeking a one-year apprenticeship or longer.</p>
                         </Col>
                         <Col xs={12} md={6} xl={4}>
                             <img src={headerImg} alt="Header Img" className="img-fluid" draggable="false"/>
