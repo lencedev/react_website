@@ -17,7 +17,7 @@ export const Footer = () => {
                 <li><a href="#projects">Projects</a></li>
             </ul>
             <p>
-                @2023 Lence | All Rights Reserved</p>
+                @2025 Lence | All Rights Reserved</p>
         </footer>
     );
 }
