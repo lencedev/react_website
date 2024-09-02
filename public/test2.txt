@@ -1,0 +1,35 @@
+Bonjour, je m'appelle Owen, je suis en 3ème année à l'EPSI montpellier préparant un
+master en programmation.
+Lors de mes 2 premières années que j'ai réalisé à Epitech Montpellier, j'ai appris les bases
+de la programmation en utilisant le C et le C++, à travers de nombreux projets seuls ou en
+équipe. Toujours à epitech, j'ai étandu mes connaissances en réalisant des projets
+en python, javascript, reactjs et d'autres langages moins connus comme l'askell et le bash.
+Toute mes connaissances ont été batis par la pratique, ce qui fait que je n'ai aucun mal
+à travailler sur une technologies que je ne connais pas, je suis capable de m'adapter très
+rapidement.
+J'ai développé un site en react que vous retrouverez en scannant le qr code de mon cv, il y a
+une petite partie des projets que j'ai réalisé.
+J'ai fait un stage pendant 5 moins en télétravail chez Orvega, une entreprise parisienne.
+C'était sur une technologie que je n'avais jamais utlisé avant Zoho CRM et tout c'est bien
+passé. Ayant déjà fait 5 mois de stage en entreprise en total télétraval, faire du remote chez
+vous ne présante aucun problème.
+J'ai été habitué aux réunions quotidiennes, à communiquer tout le temps à distance avec mon
+équipe.
+
+Il y plusieurs choses qui me motivent à faire un excellent travail:
+la reconnaissance de mon équipe,
+le sentiment d'être utile aux autres d'être important
+il y a aussi le fait de se dépasser et de ne pas rester sur ses acquis
+et pour finir la mission à accomplir, dans votre cas réaliser des missions en lien
+avec la santé, même si je "reste" derrère un écran est une fièrté.
+
+J'ai eu plusieurs moment où j'ai eu des difficultés à travailler avec quelqu'un, c'est
+quelque chose de commun lorsqu'on travaille souvent avec des personnes différentes.
+
+Je me souviens qu'à Epitech, lors d'un projet en python j'étais avec quelqu'un qui ne
+travaillait absoluement pas, je lui en ait parlé, dans ce genre de situation il faut
+faire preuve d'empathie et de parler calmement avec la personne.
+La communication reste la clé, il faut désamorser la situation le plus vite possible avant
+que ça ne prenne de l'empleur.
+Il ne faut pas avoir peur de se confronter avec quelqu'un quand quelque chose ne va pas.
+On est dans le même bateau il faut prendre sur soit pour le bien du groupe

@@ -1,0 +1,46 @@
+fait une lettre de motivation en reprenant les informations de mon cv :
+(en français)
+COMPÉTENCES
+INTÉRÊTS
+08/2022 - 12/2022
+Tranzition l Paris
+Stage de 5 mois
+-Utilisation de l'outil Zoho CRM, devenant expert dans l'extraction, la
+manipulation et la visualisation des données pour divers besoins
+commerciaux.
+-Joué un rôle clé dans la connexion des systèmes tiers à l'outil CRM principal
+de l'entreprise grâce à l'intégration des API, assurant une circulation
+transparente des données et améliorant l'efficacité opérationnelle.
+C / C++
+JavaScript / HTML / CSS
+Github
+C# / Unity3D
+D é v e l o p p e u r W e b
+Owen
+Bolling
+2023 - 2026
+Epsi l Montpellier
+Master (3ème année)
+Développer des solutions d'application en utilisant Java, Python, etc.
+Concevoir et améliorer les bases de données.
+Gérer les bases de données dans un environnement client-serveur.
+DevOps: Concepteur de développement d'applications
+2021 - 2023
+Epitech l Montpellier
+Bac+2
+Plus de 20 projets en solo ou en équipe en C / C++ et autres langages.
+Conception d'algorithmes, structuration de programmes et de leurs
+architectures, utilisation des structures de données...
+2 ans à Epitech : Expert en technologies de l'information et du numérique.
+2017 - 2020
+Lycée Jacques Prévert l Alès
+Diplôme en Gestion-Management : RH
+Diplôme en gestion des ressources humaines avec mention.Game Development
+Montage Vidéo
+Sport / Littérature
+Membre du Club de développement de jeux - 2022
+Le Game Dev Club rassemble les passionnés de développement de jeux
+pour créer des jeux vidéo en parallèle de nos études à Epitech.
+
+voici l'offre, à toi de faire une lettre de motivation adapté stp et de proposer une alternance au lieu
+du post prévu :
