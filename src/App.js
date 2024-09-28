@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
 import { NavBar } from './Components/NavBar';
@@ -8,6 +7,7 @@ import { Skills } from './Components/Skills';
 import GridDistortion from './Components/GridDistortion';
 import { Projects } from './Components/Projects';
 import { Footer } from './Components/Footer';
+import { SkillsGalaxy } from './Components/SkillsGalaxy';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -46,6 +46,7 @@ function App() {
              <GridDistortion />
             <NavBar />
             <Banner />
+            {/* <SkillsGalaxy /> */}
             <Skills />
             <div className="distortable">
                 <Projects />
