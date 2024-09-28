@@ -1,9 +1,12 @@
 import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/meter1.svg";
-import meter2 from "../assets/meter2.svg";
-import meter3 from "../assets/meter3.svg";
+import meter1 from "../assets/python.png";
+import meter2 from "../assets/c.png";
+import meter3 from "../assets/react.png";
+import meter4 from "../assets/javascript.png";
+import meter5 from "../assets/cpp.png";
+
 
 export const Skills = () => {
     const responsive = {
@@ -49,7 +52,11 @@ export const Skills = () => {
                                     <h5>Algorithmic</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" draggable="false"/>
+                                    <img src={meter4} alt="Image" draggable="false"/>
+                                    <h5>Low-Level Development</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter5} alt="Image" draggable="false"/>
                                     <h5>Low-Level Development</h5>
                                 </div>
                             </Carousel>
