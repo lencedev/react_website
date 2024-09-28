@@ -5,6 +5,7 @@ import { NavBar } from './Components/NavBar';
 import { Banner } from './Components/Banner';
 import { Skills } from './Components/Skills';
 // import { Contact } from './Components/Contact';
+import GridDistortion from './Components/GridDistortion';
 import { Projects } from './Components/Projects';
 import { Footer } from './Components/Footer';
 
@@ -42,10 +43,13 @@ function App() {
 
     return (
         <div className="App">
+             <GridDistortion />
             <NavBar />
             <Banner />
             <Skills />
-            <Projects />
+            <div className="distortable">
+                <Projects />
+            </div>
             {/* <Contact     /> */}
             <Footer />
         </div>

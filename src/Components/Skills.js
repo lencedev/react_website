@@ -1,11 +1,11 @@
 import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/python.png";
-import meter2 from "../assets/c.png";
-import meter3 from "../assets/react.png";
-import meter4 from "../assets/javascript.png";
-import meter5 from "../assets/cpp.png";
+import python from "../assets/python.png";
+import c from "../assets/c.png";
+import react from "../assets/react.png";
+import javascript from "../assets/javascript.png";
+import cpp from "../assets/cpp.png";
 
 
 export const Skills = () => {
@@ -16,7 +16,7 @@ export const Skills = () => {
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 4
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
@@ -24,7 +24,7 @@ export const Skills = () => {
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 2
         }
     };
     return (
@@ -40,24 +40,24 @@ export const Skills = () => {
                             <p>Proficient in Web and Game Development.<br></br>Strong skills in Low-Level Development with foundational knowledge in Algorithmic approaches.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter3} alt="Image" draggable="false"/>
-                                    <h5>Web Developement</h5>
+                                    <img src={react} alt="Image" draggable="false"/>
+                                    <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" draggable="false"/>
-                                    <h5>Game Developement</h5>
+                                    <img src={python} alt="Image" draggable="false"/>
+                                    <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" draggable="false"/>
-                                    <h5>Algorithmic</h5>
+                                    <img src={c} alt="Image" draggable="false"/>
+                                    <h5>C</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter4} alt="Image" draggable="false"/>
-                                    <h5>Low-Level Development</h5>
+                                    <img src={javascript} alt="Image" draggable="false"/>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter5} alt="Image" draggable="false"/>
-                                    <h5>Low-Level Development</h5>
+                                    <img src={cpp} alt="Image" draggable="false"/>
+                                    <h5>C++</h5>
                                 </div>
                             </Carousel>
                         </div>

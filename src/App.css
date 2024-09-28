@@ -1434,3 +1434,8 @@ footer .wave#wave4 {
     transform: rotate(360deg);
   }
 }
+.distortable {
+  transition: transform 0.4s ease-out;
+  transform-style: preserve-3d; /* Garde la transformation 3D intacte */
+  will-change: transform;
+}
