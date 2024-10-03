@@ -94,7 +94,7 @@ export const Projects = () => {
                 <Container>
                     <Row>
                         <Col><h2>Projects</h2>
-                        <p>Beneath, you'll find a curated selection of my projects. <br></br>While they may not all represent my pinnacle works, they showcase the breadth of my coding capabilities, highlighting my versatility as a developer.</p>
+                        <p>Below is a selection of my projects, showcasing the breadth of my coding skills and versatility as a developer.</p>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                     <Nav.Item>

@@ -3,24 +3,13 @@ import { useEffect } from 'react';
 import { NavBar } from './Components/NavBar';
 import { Banner } from './Components/Banner';
 import { Skills } from './Components/Skills';
-// import { Contact } from './Components/Contact';
 import GridDistortion from './Components/GridDistortion';
 import { Projects } from './Components/Projects';
 import { Footer } from './Components/Footer';
-import { SkillsGalaxy } from './Components/SkillsGalaxy';
-
-
+import { WakaTimeStats } from './Components/WakaTimeStats';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
-    // useEffect(() => {
-    //     fetch("/api")
-    //         .then((res) => res.json())
-    //         .then((data) => { console.log(data) })
-
-    // }, []);
-
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -38,20 +27,21 @@ function App() {
         // Cleanup
         return () => {
             hiddenElements.forEach((el) => observer.unobserve(el));
-        }
+        };
     }, []);
 
     return (
         <div className="App">
-             <GridDistortion />
+            <GridDistortion />
             <NavBar />
             <Banner />
-            {/* <SkillsGalaxy /> */}
             <Skills />
             <div className="distortable">
                 <Projects />
             </div>
-            {/* <Contact     /> */}
+            {/* <div className="stats-container">
+                <WakaTimeStats />
+            </div> */}
             <Footer />
         </div>
     );
