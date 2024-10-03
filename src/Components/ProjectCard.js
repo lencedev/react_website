@@ -2,13 +2,11 @@ import { Col } from "react-bootstrap"
 export const ProjectCard = ({ title, description, imgUrl, link }) => {
     const randomDelay = Math.random() * 2;
 
-    // Function to replace URLs with anchor tags
     const linkify = (text) => {
         const urlRegex = /(https?:\/\/[^\s]+)/g;
         return text.replace(urlRegex, (url) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`);
     };
 
-    // Convert description URLs to clickable links
     const linkedDescription = linkify(description);
 
     return (
