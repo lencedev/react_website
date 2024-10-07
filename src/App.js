@@ -24,7 +24,7 @@ function App() {
         const hiddenElements = document.querySelectorAll('.hidden');
         hiddenElements.forEach((el) => observer.observe(el));
 
-        // Cleanup
+        // Cleanup function
         return () => {
             hiddenElements.forEach((el) => observer.unobserve(el));
         };
