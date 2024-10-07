@@ -13,10 +13,8 @@ export const Banner = () => {
             backSpeed: 60,
             loop: true
         };
-
         // Initialisation de Typed.js
         const typed = new Typed(".typing", options);
-
         // Cleanup à la destruction du composant
         return () => {
             typed.destroy();
@@ -38,9 +36,6 @@ export const Banner = () => {
                             <img src={headerImg} alt="Header Img" className="img-fluid" draggable="false"/>
                         </Col>
                     </Row>
-                    {/* <div className="about-me">
-                        <h2 className="h2">About me</h2>
-                    </div> */}
                 </Container>
             </section>
         </section>
