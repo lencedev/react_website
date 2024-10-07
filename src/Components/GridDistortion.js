@@ -22,7 +22,6 @@ const GridDistortion = () => {
                 element.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
             });
         };
-
         const handleMouseLeave = () => {
             elements.forEach((element) => {
                 // Retourne à la position d'origine
