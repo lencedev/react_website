@@ -4,7 +4,6 @@ import ResumeIMG from "../assets/img/cv_owen.jpg";
 
 export const ResumeButton = ({ className }) => {
     const [show, setShow] = useState(false);
-
     const handleShow = () => setShow(true);
     const handleClose = () => setShow(false);
 
@@ -22,7 +21,6 @@ export const ResumeButton = ({ className }) => {
                     <img src={ResumeIMG} alt="Resume" style={{ width: '100%', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
                 </Modal.Body>
             </Modal>
-
         </>
     );
 };
