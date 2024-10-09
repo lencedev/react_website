@@ -80,12 +80,12 @@ export const Contact = () => {
 
                         <form onSubmit={handleSubmit} className="contact-form">
                             <div className="input-wrap">
-                                <input 
-                                    type="text" 
+                                <input
+                                    type="text"
                                     className="contact-input"
                                     autoComplete="off"
                                     name="First Name"
-                                    required 
+                                    required
                                     value={formDetails.firstName}
                                     onChange={(e) => onFormUpdate('firstName', e.target.value)}
                                 />
@@ -94,12 +94,12 @@ export const Contact = () => {
                             </div>
 
                             <div className="input-wrap">
-                                <input 
-                                    type="text" 
+                                <input
+                                    type="text"
                                     className="contact-input"
-                                    autoComplete="off" 
-                                    name="Last Name" 
-                                    required 
+                                    autoComplete="off"
+                                    name="Last Name"
+                                    required
                                     value={formDetails.lastName}
                                     onChange={(e) => onFormUpdate('lastName', e.target.value)}
                                 />
@@ -108,12 +108,12 @@ export const Contact = () => {
                             </div>
 
                             <div className="input-wrap w-100">
-                                <input 
-                                    type="email" 
+                                <input
+                                    type="email"
                                     className="contact-input"
-                                    autoComplete="off" 
-                                    name="Email" 
-                                    required 
+                                    autoComplete="off"
+                                    name="Email"
+                                    required
                                     value={formDetails.email}
                                     onChange={(e) => onFormUpdate('email', e.target.value)}
                                 />
@@ -122,8 +122,8 @@ export const Contact = () => {
                             </div>
 
                             <div className="input-wrap textarea w-100">
-                                <textarea 
-                                    name="Message" 
+                                <textarea
+                                    name="Message"
                                     className="contact-input"
                                     autoComplete="off"
                                     value={formDetails.message}
@@ -134,7 +134,7 @@ export const Contact = () => {
                                 <i className="icon fa-regular fa-message"></i>
                             </div>
                             <div className="contact-buttons">
-                                <input type='submit' value={buttonText} className="btn"/>
+                                <input type='submit' value={buttonText} className="btn" />
                             </div>
                         </form>
                     </div>

@@ -12,7 +12,6 @@ export const ResumeButton = ({ className }) => {
             <button className={className} onClick={handleShow}>
                 View Resume
             </button>
-
             <Modal size="lg" show={show} onHide={handleClose} centered className="modern-modal">
                 <Modal.Header closeButton className='close-button'>
                     <Modal.Title>Resume Preview</Modal.Title>
