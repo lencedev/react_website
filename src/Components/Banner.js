@@ -6,16 +6,13 @@ import Typed from "typed.js";
 export const Banner = () => {
 
     useEffect(() => {
-        // Options pour Typed.js
         const options = {
             strings: ["Web Developer", "Game Developer", "Video Editor"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true
         };
-        // Initialisation de Typed.js
         const typed = new Typed(".typing", options);
-        // Cleanup à la destruction du composant
         return () => {
             typed.destroy();
         };
