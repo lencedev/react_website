@@ -30,13 +30,11 @@ const GridDistortion = () => {
         document.addEventListener('mousemove', handleMouseMove);
         document.addEventListener('mouseleave', handleMouseLeave);
 
-        // Nettoyage
         return () => {
             document.removeEventListener('mousemove', handleMouseMove);
             document.removeEventListener('mouseleave', handleMouseLeave);
         };
     }, []);
-
     return null;
 };
 
