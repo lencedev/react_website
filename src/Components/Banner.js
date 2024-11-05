@@ -24,9 +24,9 @@ export const Banner = () => {
                 <Container>
                     <Row className="align-items-center">
                         <Col xs={12} md={6} xl={7}>
-                            <h1 className="hello">Hello, I'm</h1> {/* Changement de div en h2 et ajout de className */}
-                            <h1 className="lence">Lence</h1> {/* Changement de div en h1 et ajout de className */}
-                            <h2 className="im">I'm a<span className="mini_space"></span> <span className="typing"></span></h2> {/* Maintien de div et ajout de className */}
+                            <h1 className="hello">Hello, I'm</h1>
+                            <h1 className="lence">Lence</h1>
+                            <h2 className="im">I'm a<span className="mini_space"></span> <span className="typing"></span></h2>
                             <p className="about">Completed 2 years at Epitech, looking for a job before beginning my 3rd year at Epitech.<br></br> Actively seeking a one-year apprenticeship or longer.</p>
                         </Col>
                         <Col xs={12} md={6} xl={4}>
