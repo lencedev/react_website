@@ -729,7 +729,6 @@ footer .wave#wave4 {
   STYLING RESUME CV BUTTON
 */
 
-/* Ensure the content, header, and body of the modal has no padding or background */
 .modal-content,
 .modal-header,
 .modal-body {
@@ -738,18 +737,15 @@ footer .wave#wave4 {
   background-color: transparent !important;
 }
 
-/* Make sure the image takes up full space */
 .modern-modal img {
   width: 100%;
   height: auto;
   display: block;
-  /* removes any whitespace at the bottom of the image */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   opacity: 0.95;
 }
 
-/* Position the close button on top-right corner over the image */
 .modern-modal .close {
   position: absolute;
   top: 10px;
@@ -758,7 +754,6 @@ footer .wave#wave4 {
   opacity: 0.8;
 }
 
-/* Adjust the close button appearance on hover */
 .modern-modal .close:hover {
   opacity: 1;
 }
@@ -822,7 +817,6 @@ footer .wave#wave4 {
 .project {
   padding: 80px 0;
   position: relative;
-  margin-bottom: 80px;
 }
 
 .project h2 {
@@ -845,15 +839,10 @@ footer .wave#wave4 {
 
   text-shadow:
     0 0 5px #1b2a40,
-    /* Dark navy blue */
     0 0 10px #2c3e50,
-    /* Slightly lighter navy blue */
     0 0 25px #1b2a40,
-    /* Dark navy blue */
     0 0 30px #34495e,
-    /* Moderate navy blue */
     0 0 35px #2c3e50;
-  /* Slightly lighter navy blue */
 }
 
 .project .nav.nav-pills {
@@ -983,6 +972,79 @@ footer .wave#wave4 {
   z-index: -4;
 }
 
+.wakatime-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.wakatime-stats {
+  text-align: center;
+  padding: 30px;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background: rgba(45, 45, 58, 0.85);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wakatime-stats:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wakatime-stats h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Centra', sans-serif;
+}
+
+.wakatime-stats img {
+  width: 100%;
+  max-width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: border 0.3s ease;
+}
+
+.wakatime-stats img:hover {
+  border-color: #4a90e2;
+}
+
+
+@media (max-width: 1024px) {
+  .wakatime-stats {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wakatime-stats {
+    padding: 20px;
+    max-width: 80%;
+  }
+  .wakatime-stats h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wakatime-stats {
+    padding: 15px;
+    max-width: 90%;
+  }
+  .wakatime-stats h3 {
+    font-size: 1rem;
+  }
+  .wakatime-stats img {
+    max-width: 100%;
+  }
+}
+
+
 @keyframes glowing {
   0% {
     box-shadow: 0 0 5px #ff0000;
@@ -1056,7 +1118,6 @@ footer .wave#wave4 {
 /* faire en sorte que le glowing soit plus bleu pour éviter la "répétition de glow avec skills" */
 
 @keyframes sophisticatedGlowingBanner {
-
   0%,
   100% {
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.2),

@@ -1,8 +1,13 @@
 export const WakaTimeStats = () => {
     return (
-        <div className="wakatime-stats">
-            <h3>Statistiques WakaTime</h3>
-            <figure><embed src="https://wakatime.com/share/@lence/f3dd6cbb-c51a-464f-9296-6ec500ac7ec7.svg"></embed></figure>
+        <div className="wakatime-container">
+            <div className="wakatime-stats">
+                <h3>My WakaTime's Stats</h3>
+                <img
+                    src="https://github-readme-stats.vercel.app/api/wakatime?username=lence&theme=tokyonight&langs_count=8&hide_border=false"
+                    alt="Wakatime Stats"
+                />
+            </div>
         </div>
     );
 };

@@ -14,7 +14,6 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
                     <img src={imgUrl} alt={title} draggable="false"/>
                     <div className="proj-txtx">
                         <h4>{title}</h4>
-                        {/* Render the description with clickable links */}
                         <span dangerouslySetInnerHTML={{ __html: linkedDescription }}></span>
                     </div>
                 </a>

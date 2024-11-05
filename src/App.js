@@ -39,6 +39,7 @@ function App() {
             <div className="distortable">
                 <Projects />
             </div>
+            <WakaTimeStats />
             <Footer />
         </div>
     );
