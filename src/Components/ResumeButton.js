@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import ResumeIMG from "../assets/img/cv_owen.jpg";
+import ResumeIMG from "../assets/img/owen_cv.jpg";
 
 export const ResumeButton = ({ className }) => {
     const [show, setShow] = useState(false);
